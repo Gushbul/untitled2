@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сорта мёда</title>
+
+  <!-- Подключение GSAP -->
+  <script src="libs/gsap/gsap.min.js" defer></script>
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="libs/gsap/ScrollToPlugin.min.js" defer></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+<header class="main-header">
+  <div class="logo-container">
+    <a href="index.html">
+      <img src="img/logo.png" alt="Логотип HoneyShop" class="logo">
+    </a>
+  </div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="about.html">О нас</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <div class="buttons">
+    <a href="register.html" class="btn">Регистрация</a>
+    <a href="login.html" class="btn">Вход</a>
+  </div>
+</header>
+
+<main>
+  <section class="gallery">
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Мёд акации</h3>
+        <p>Нежный мёд с мягким вкусом, идеально подходит для добавления в чай и выпечку.</p>
+      </div>
+      <a href="acacia.html">
+        <img src="img/акациевый.jpg" alt="Мёд акации">
+      </a>
+    </div>
+    <div class="gallery__item right">
+      <div class="gallery__description">
+        <h3>Гречишный мёд</h3>
+        <p>Обладает насыщенным вкусом и ароматом. Богат витаминами и микроэлементами.</p>
+      </div>
+      <a href="buckwheat.html">
+        <img src="img/гречишный.jpg" alt="Гречишный мёд">
+      </a>
+    </div>
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Цветочный мёд</h3>
+        <p>Лёгкий, ароматный мёд, собранный из луговых цветов. Полезен для иммунитета.</p>
+      </div>
+      <a href="flower.html">
+        <img src="img/Мед-цветочный.jpg" alt="Цветочный мёд">
+      </a>
+    </div>
+    <div class="gallery__item right">
+      <div class="gallery__description">
+        <h3>Липовый мёд</h3>
+        <p>Нежный мёд с мягким вкусом, идеально подходит для добавления в чай и выпечку.</p>
+      </div>
+      <a href="linden.html">
+        <img src="img/липовый.jpg" alt="Липовый мёд">
+      </a>
+    </div>
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Каштановый мёд</h3>
+        <p>Имеет тёмный цвет и горьковатый вкус. Помогает при нарушениях работы желудка и печени.</p>
+      </div>
+      <a href="chestnut.html">
+        <img src="img/каштановый%203.jpg" alt="Каштановый мёд">
+      </a>
+    </div>
+    <div class="gallery__item right">
+      <div class="gallery__description">
+        <h3>Боярышниковый мёд</h3>
+        <p>Богат антиоксидантами, полезен для здоровья сердца и нормализации кровообращения.</p>
+      </div>
+      <a href="hawthorn.html">
+        <img src="img/боярышниковый.jpg" alt="Боярышниковый мёд">
+      </a>
+    </div>
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Горный мёд</h3>
+        <p>Собирается в экологически чистых районах. Отличается уникальным ароматом и множеством витаминов.</p>
+      </div>
+      <a href="mountain.html">
+        <img src="img/горный.jpg" alt="Горный мёд">
+      </a>
+    </div>
+    <div class="gallery__item right">
+      <div class="gallery__description">
+        <h3>Лесной мёд</h3>
+        <p>Содержит редкие ферменты и микроэлементы. Прекрасный источник энергии и натуральных антибиотиков.</p>
+      </div>
+      <a href="forest.html">
+        <img src="img/лесной%202.jpg" alt="Лесной мёд">
+      </a>
+    </div>
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Клеверный мёд</h3>
+        <p>Имеет нежный вкус и светлый цвет. Подходит для диетического питания и укрепления организма.</p>
+      </div>
+      <a href="clover.html">
+        <img src="img/клеверный.jpg" alt="Клеверный мёд">
+      </a>
+    </div>
+    <!-- Новые сорта мёда добавляйте аналогично -->
+    <div class="contacts-container">
+      <div class="contact-text">
+        <h2>Свяжитесь с нами</h2>
+        <p>У вас есть вопросы или вы хотите сделать заказ? Мы всегда рады помочь!</p>
+      </div>
+      <div class="contact-details">
+        <div class="contact-item">
+          <img src="img/телефон.png" alt="Phone Icon">
+          <p><strong>Телефон:</strong> <a href="tel:+1234567890">+123 456 7890</a></p>
+        </div>
+        <div class="contact-item">
+          <img src="img/почта.png" alt="Email Icon">
+          <p><strong>Email:</strong> <a href="mailto:info@honeyshop.com">info@honeyshop.com</a></p>
+        </div>
+        <div class="contact-item">
+          <img src="img/локация.png" alt="Address Icon">
+          <p><strong>Адрес:</strong> ул. Мёдовая, 123, г. Сладкий</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
